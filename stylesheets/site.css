@@ -1,0 +1,294 @@
+* {
+  font-size: 14px; }
+
+html {
+  min-height: 100%; }
+
+body {
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  background: #f4f4f4;
+  min-height: 100%;
+  min-width: 320px;
+  padding: 0;
+  margin: 0; }
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: #fff;
+  font-weight: normal; }
+  h1.background {
+    margin: 0;
+    padding-top: 9em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    margin-bottom: 1em;
+    background: url("../images/headbar.png");
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+i[rel=tooltip] {
+  background: #c8c8c8;
+  font-size: 0.5em;
+  background: #c8c8c8;
+  padding: 0.5em 1em;
+  color: #fff;
+  font-style: normal;
+  line-height: 0;
+  border-radius: 2em;
+  font-weight: 600; }
+
+.info {
+  padding: 1em;
+  line-height: 2.5em;
+  color: #828282; }
+
+.main {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  background: #fff;
+  border-bottom: 1px #e6e6e6 solid;
+  border-right: 0; }
+
+@media all and (min-width: 450px) {
+  * {
+    font-size: 16px; }
+
+  .main {
+    padding: 1em;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    border-right: 1px #e6e6e6 solid; }
+
+  h1.background {
+    margin: -1em;
+    margin-bottom: 1em; } }
+#tooltip {
+  text-align: center;
+  color: #fff;
+  background: #111;
+  position: absolute;
+  z-index: 100;
+  padding: 15px; }
+  #tooltip:after {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #111;
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    margin-left: -10px; }
+  #tooltip.top:after {
+    border-top-color: transparent;
+    border-bottom: 10px solid #111;
+    top: -20px;
+    bottom: auto; }
+  #tooltip.left:after {
+    left: 2px;
+    margin: 0; }
+  #tooltip.right:after {
+    right: 10px;
+    left: auto;
+    margin: 0; }
+
+.personalization .goal__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1em 0; }
+  .personalization .goal__list a {
+    color: #333;
+    text-decoration: none; }
+  .personalization .goal__list .goal__card {
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    padding: 1em;
+    margin: 1em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    text-transform: uppercase; }
+    .personalization .goal__list .goal__card h2 {
+      font-weight: normal;
+      -webkit-box-flex: 1;
+          -ms-flex: 1;
+              flex: 1; }
+    .personalization .goal__list .goal__card img {
+      width: 2em;
+      max-height: 2em; }
+
+.commitment button {
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 2px;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: #f4f4f4;
+  color: #000;
+  width: calc(100% - 2em);
+  border: 0;
+  padding: 1em 1em;
+  margin: 1em;
+  text-transform: uppercase;
+  color: #333; }
+.commitment form {
+  padding: 2em; }
+.commitment .goal__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1em 0; }
+  .commitment .goal__list a {
+    margin: 0;
+    padding: 0; }
+  .commitment .goal__list .goal__card {
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    padding: 1em;
+    margin: 1em; }
+    .commitment .goal__list .goal__card .card__head {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      border-bottom: 1px #ddd solid; }
+      .commitment .goal__list .goal__card .card__head h2 {
+        font-weight: normal;
+        -webkit-box-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        text-transform: uppercase; }
+      .commitment .goal__list .goal__card .card__head img {
+        width: 2em;
+        max-height: 2em; }
+    .commitment .goal__list .goal__card p {
+      color: #888;
+      font-size: 0.8em; }
+
+.install .installbuttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 1em 0; }
+  .install .installbuttons .installbuttons_store {
+    text-align: center; }
+    .install .installbuttons .installbuttons_store img {
+      width: 60%;
+      max-height: 6em; }
+    .install .installbuttons .installbuttons_store a {
+      color: #333;
+      text-decoration: none; }
+.install .proceed {
+  margin: 3em 0;
+  text-align: center; }
+  .install .proceed a {
+    color: #505050;
+    text-decoration: none; }
+
+.pitch {
+  background: url("../images/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #FF5722;
+  padding-top: 8em;
+  min-height: 569px; }
+  .pitch h1 {
+    text-align: center;
+    margin-bottom: 5em; }
+  .pitch .owl-theme .owl-dots .owl-dot.active span {
+    background: #fff; }
+  .pitch .owl-theme .owl-dots .owl-dot span {
+    background: none;
+    border: 1px #fff solid;
+    margin: .5em; }
+  .pitch .item figure {
+    background: rgba(180, 180, 180, 0.14);
+    text-align: center;
+    margin-bottom: 2em; }
+    .pitch .item figure img {
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 4em;
+      padding-bottom: 4em;
+      height: auto; }
+    .pitch .item figure.table {
+      min-height: 18em;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+  .pitch .item table {
+    padding: 1em;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto; }
+    .pitch .item table td {
+      width: 50%;
+      color: #fff;
+      font-weight: 300;
+      text-align: center;
+      padding: 0.5em 2em; }
+    .pitch .item table th {
+      color: #fff;
+      letter-spacing: 0.3em;
+      font-weight: 600;
+      text-align: center;
+      text-transform: uppercase; }
+  .pitch .item .navButton {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; }
+    .pitch .item .navButton .customNextBtn,
+    .pitch .item .navButton .customPrevBtn {
+      color: #fff; }
+  .pitch button {
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    font-size: 1em;
+    font-weight: 500;
+    background-color: #f4f4f4;
+    color: #000;
+    width: calc(100% - 2em);
+    border: 0;
+    padding: 1em;
+    margin: 1em;
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 1em; }
