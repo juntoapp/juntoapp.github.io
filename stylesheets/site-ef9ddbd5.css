@@ -24,7 +24,7 @@ h1 {
     padding-bottom: 2em;
     padding-left: 2em;
     margin-bottom: 1em;
-    background: url("../images/headbar.png");
+    background: url("../images/headbar-e55c25b2.png");
     background-size: cover;
     background-repeat: no-repeat; }
 
@@ -214,7 +214,7 @@ i[rel=tooltip] {
     text-decoration: none; }
 
 .pitch {
-  background: url("../images/bg.png");
+  background: url("../images/bg-5ba2763e.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #FF5722;
