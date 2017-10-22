@@ -24,7 +24,7 @@ h1 {
     padding-bottom: 2em;
     padding-left: 2em;
     margin-bottom: 1em;
-    background: url("../images/headbar-e55c25b2.png");
+    background: url("../images/headbar.png");
     background-size: cover;
     background-repeat: no-repeat; }
 
@@ -139,7 +139,7 @@ i[rel=tooltip] {
   border-radius: 2px;
   font-size: 1em;
   font-weight: 500;
-  background-color: #f4f4f4;
+  background-color: #fff;
   color: #000;
   width: calc(100% - 2em);
   border: 0;
@@ -214,7 +214,9 @@ i[rel=tooltip] {
     text-decoration: none; }
 
 .pitch {
-  background: url("../images/bg-5ba2763e.png");
+  margin: -1em;
+  padding: 1em;
+  background: url("../images/bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #FF5722;
@@ -283,7 +285,7 @@ i[rel=tooltip] {
     border-radius: 2px;
     font-size: 1em;
     font-weight: 500;
-    background-color: #f4f4f4;
+    background-color: #fff;
     color: #000;
     width: calc(100% - 2em);
     border: 0;
