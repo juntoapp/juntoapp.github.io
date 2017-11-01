@@ -3,6 +3,7 @@
   <head>
     <link rel="stylesheet" href="javascripts/owlcarousel/assets/owl.carousel.min-c69d19f9.css">
     <link rel="stylesheet" href="javascripts/owlcarousel/assets/owl.theme.default.min-fded06be.css">
+    <link rel="stylesheet" type="text/css" href="vendor/tooltips/dist/css/tooltipster.bundle.min-53832cbb.css" />
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport"
@@ -10,8 +11,9 @@
     <!-- Use the title from a page's frontmatter if it has one -->
     <title>Junto</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link href="stylesheets/site-96cf4c3a.css" rel="stylesheet" />
-    <script src="javascripts/site-daff4006.js"></script>
+    <script src="vendor/tooltips/dist/js/tooltipster.bundle.min-802cfb1d.js"></script>
+    <link href="stylesheets/site-daf81c28.css" rel="stylesheet" />
+    <script src="javascripts/site-961fa390.js"></script>
   </head>
   <body>
     <div class="main">
@@ -33,24 +35,20 @@
               Over 80% of New Year's Resolutions fail. <i rel="tooltip" title="A research study by psychology professor John Norcross reports 81% and there are other studies quoting a 90% and 92% failure rate. Prof. Norcoss tracked the success rate of New Year’s resolutions over a two-year span.">i</i> <br>Why?
             </div>
             <figure class="table">
-                <table>
-                    <tr>
-                        <th>Old path</th>
-                        <th>New path</th>
-                    </tr>
-                    <tr>
-                        <td>seeking results</td>
-                        <td>seeking rituals</td>
-                    </tr>
-                    <tr>
-                        <td>starting too big</td>
-                        <td>making babysteps</td>
-                    </tr>
-                    <tr>
-                        <td>same old environment</td>
-                        <td>supportive environment</td>
-                    </tr>
-                </table>
+                <div class="oldnewtbl">
+                    <div class="left">
+                        <p class="title">Problem</p>
+                        <p>seeking results</p>
+                        <p>starting too big</p>
+                        <p>same old environment</p>
+                    </div>
+                    <div class="right">
+                        <p class="title">Solution</p>
+                        <p>seeking rituals</p>
+                        <p>making babysteps</p>
+                        <p>supportive environment</p>
+                    </div>
+                </div>
             </figure>
             <form action="install.html" method="get">
                 <button>Let's get started</button>
