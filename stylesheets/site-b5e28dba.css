@@ -266,6 +266,16 @@ i[rel=tooltip] {
     text-align: center;
     margin: 1em;
     margin-bottom: 2em; }
+    .pitch .item figure.table {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
     .pitch .item figure img {
       width: 50%;
       margin-left: auto;
