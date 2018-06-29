@@ -41,6 +41,4 @@ $(document).ready(function() {
     });
 
 
-    var headLine = getParameterByName('hl');
-    $('.headline-data').html(headLine);
 });
